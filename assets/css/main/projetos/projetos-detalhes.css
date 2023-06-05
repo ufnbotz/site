@@ -1,0 +1,67 @@
+.projeto-detalhes {
+  padding-top: 40px;
+}
+
+.projeto-detalhes .projeto-detalhes-slider img {
+  width: 100%;
+}
+
+.projeto-detalhes .projeto-detalhes-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.projeto-detalhes
+  .projeto-detalhes-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: var(--cor-branco);
+  opacity: 1;
+  border: 1px solid var(--cor-principal);
+}
+
+.projeto-detalhes
+  .projeto-detalhes-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: var(--cor-principal);
+}
+
+.projeto-detalhes .projeto-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
+}
+
+.projeto-detalhes .projeto-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.projeto-detalhes .projeto-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.projeto-detalhes .projeto-info ul li + li {
+  margin-top: 10px;
+}
+
+.projeto-detalhes .projeto-description {
+  padding-top: 30px;
+}
+
+.projeto-detalhes .projeto-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.projeto-detalhes .projeto-description p {
+  padding: 0;
+}

@@ -1,0 +1,74 @@
+/* Gerais */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #555555;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor-principal);
+}
+
+a:hover {
+  color: var(--cor-principal-2);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.icone-direito {
+  position: fixed;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.icone {
+  margin-bottom: 20px;
+}
+
+/* Botão de voltar ao topo */
+.voltar-topo {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: var(--cor-principal);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+.voltar-topo i {
+  font-size: 28px;
+  color: var(--cor-branco);
+  line-height: 0;
+}
+
+.voltar-topo:hover {
+  background: var(--cor-principal-2);
+  color: var(--cor-branco);
+}
+
+.voltar-topo.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Desabilitar AOS delay on mobile */
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}

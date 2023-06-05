@@ -1,0 +1,45 @@
+#header {
+  height: 90px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: var(--cor-principal-3);
+  box-shadow: 0 4px 10px -3px hsla(0, 0%, 75%, 0.5);
+}
+
+#header .logo h1 {
+  font-size: 28px;
+  margin: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: var(--cor-branco);
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header {
+    height: 70px;
+  }
+}
+
+.scrolled-offset {
+  margin-top: 90px;
+}
+
+@media (max-width: 992px) {
+  .scrolled-offset {
+    margin-top: 90px;
+  }
+}

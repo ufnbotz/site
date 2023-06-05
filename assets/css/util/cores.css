@@ -1,0 +1,12 @@
+:root {
+  /* Branco */
+  --cor-branco: #ffffff;
+
+  /* Preto */
+  --cor-preto: #000000;
+
+  /* Principais */
+  --cor-principal: #089ade;
+  --cor-principal-2: #afe6ff;
+  --cor-principal-3: #07101a;
+}

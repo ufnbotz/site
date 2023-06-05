@@ -1,0 +1,22 @@
+/* Estilos globais */
+@import "./global/global.css";
+
+/* Util */
+@import "./util/cores.css";
+@import "./util/section.css";
+@import "./util/breadcrumbs.css";
+
+/* Estilos header */
+@import "./header/header.css";
+@import "./header/navbar.css";
+
+/* Estilos main */
+@import "./main/inicio.css";
+@import "./main/sobre.css";
+@import "./main/projetos/projetos.css";
+@import "./main/projetos/projetos-detalhes.css";
+@import "./main/apoiadores.css";
+@import "./main/contato.css";
+
+/* Estilos footer */
+@import "./footer/footer.css";
